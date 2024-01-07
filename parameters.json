@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "9ebfbd17-78b3-4021-b1b9-e099228a04ab"
+        },
+        "resourceGroupName": {
+            "value": "rgagent"
+        },
+        "name": {
+            "value": "ppp01"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-rg001-a7ba"
+        },
+        "serverFarmResourceGroup": {
+            "value": "rg001"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "linuxFxVersion": {
+            "value": "JAVA|11-java11"
+        }
+    }
+}
